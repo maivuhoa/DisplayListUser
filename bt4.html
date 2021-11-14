@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <div class="form-input">
+            <label for="">Name :</label>  
+            <br>      
+            <input type="text" id="name" required>
+            <p id="pName" class="form-mess"></p>
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="">Phone :</label>       
+            <br> 
+            <input type="text" id="phone" >
+            <p id="pPhone" class="form-mess"></p>
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="">Address :</label>    
+            <br> 
+            <input type="text" id="address" >
+            <p id="pAddress" class="form-mess"></p>
+        </div>
+        <br>
+        <button id="submit">Save</button>
+        <button id="showUser">Show User</button>
+        <table id="table">
+            <thead>
+              <tr>
+                <th>User name</th>
+                <th>Phone number</th>
+                <th>Adress</th>
+                <th>ID</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <p id="listUsers"></p>
+
+    </div>
+    <script src="./bt4.js"></script>
+</body>
+</html>
